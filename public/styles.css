@@ -1,0 +1,79 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6d6;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Header style */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Input container style to align input and button */
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Ritual input field style */
+input#ritual {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Complete button style */
+button#complete {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button#complete:hover {
+    background-color: #45a049;
+}
+
+/* Progress section */
+.total-tracker {
+    text-align: center;
+}
+
+button#get-tracker {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button#get-tracker:hover {
+    background-color: #007bb5;
+}
+
+/* Progress info area */
+#ProgressInfo {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Smiley face after progress info */
+#ProgressInfo p {
+    margin-bottom: 10px;
+}
